@@ -1,10 +1,13 @@
 import React from "react";
 import  { Button } from 'react-bootstrap'
 
-function ageButton () {
+function ageButton ({onClick}) {
 return (
 <div>
-<Button type="submit">Filter by age</Button>{' '}
+<Button 
+type="submit"
+onClick={onClick}
+>Filter by age</Button>{' '}
 
 </div>
 
